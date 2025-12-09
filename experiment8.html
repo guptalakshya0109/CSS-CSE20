@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Experiment - Flexbox Student Profile Card</title>
+ <style>
+ body{
+   font-family: Arial, sans-serif;
+   margin: 20px;
+   background: linear-gradient(135deg, #eef3ff, #f9f9f9);
+ }
+
+ h2{
+   text-align: center;
+   margin-bottom: 25px;
+ }
+
+ .container{
+   display: flex; 
+   flex-direction: row; 
+   justify-content: center; 
+   align-items: center; 
+   gap: 10px; 
+   flex-wrap: wrap; 
+   border: 2px solid #007bff;
+   padding: 10px;
+   border-radius: 12px;
+   background: #ffffff;
+   box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+ }
+
+ .card{
+   background: #fff;
+   border-radius: 10px;
+   border: 2px solid #000000;       
+   box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+   width: 220px;
+   text-align: center;
+   padding: 18px;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+
+ .avatar{
+   width: 70px; height: 70px;
+   background: #007bff; color: #fff;
+   border-radius: 50%;
+   display: flex; justify-content: center; align-items: center;
+   font-size: 20px; 
+   margin: 0 auto 12px;
+   border: 2px solid #0056c7;       
+ } /* ✔ FIXED — Added missing bracket */
+
+ .name{
+   font-weight: bold;
+   font-size: 18px;
+   margin-top: 5px;
+ }
+
+ .detail{
+   font-size: 14px;
+   color: #555;
+   margin: 4px 0;
+ }
+ </style>
+</head>
+<body>
+
+ <h2>Student Profile Cards</h2>
+
+ <div class="container">
+
+   <div class="card">
+     <div class="avatar">LG</div>
+     <div class="name">Lakshya Gupta</div>
+     <div class="detail">B.Tech - CSE</div>
+     <div class="detail">Roll No: 21CS1007</div>
+     <div class="detail">1st Year</div>
+     <div class="detail">Hostel- Yes</div>
+   </div>
+
+   <div class="card">
+     <div class="avatar">LV</div>
+     <div class="name">Lavi Pal</div>
+     <div class="detail">B.Tech - CSE</div>
+     <div class="detail">Roll No: 21CS1012</div>
+     <div class="detail">1st Year</div>
+     <div class="detail">Hostel- No</div>
+   </div>
+
+   <div class="card">
+     <div class="avatar">KV</div>
+     <div class="name">Kavya Jain</div>
+     <div class="detail">B.Tech - CSE</div>
+     <div class="detail">Roll No: 21CS1009</div>
+     <div class="detail">1st Year</div>
+     <div class="detail">Hostel- Yes</div>
+   </div>
+
+ </div>
+
+</body>
+</html>
