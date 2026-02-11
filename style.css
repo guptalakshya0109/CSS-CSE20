@@ -1,0 +1,124 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3e6e6;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    background-color: #131921;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+}
+
+.logo {
+    width: 100px;
+}
+
+.navbar input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+}
+
+.nav-text span {
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+/* ===== MENU BAR ===== */
+.menu {
+    background-color: #232f3e;
+    padding: 8px 20px;
+}
+
+.menu a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 14px;
+}
+/* PRODUCT SECTION TITLE */
+.section-title {
+    margin: 30px 20px 10px;
+    font-size: 26px;
+    font-weight: bold;
+    border-left: 6px ;
+    padding-left: 10px;
+}
+
+/* ===== PRODUCT SECTION ===== */
+.products {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.product-card {
+    background-color: white;
+    width: 320px;
+    padding: 20px;
+    border-radius: 4px;
+}
+/* IMAGE FIX (MOST IMPORTANT PART) */
+.product-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    background-color: #fff;
+}
+/* TEXT */
+.product-card h2 {
+    font-size: 20px;
+    margin: 15px 0 5px;
+}
+
+.product-card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.price {
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+.new-price {
+    color: #0f7a1e;      /* Amazon green */
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.old-price {
+    color: #888;
+    text-decoration: line-through;
+    font-size: 16px;
+}
+
+
+/* BUTTON */
+.product-card button {
+    background-color: #ffa41c;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    margin-top: 40px;
+    background-color: #131921;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
